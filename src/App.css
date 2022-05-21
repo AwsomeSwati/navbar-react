@@ -1,6 +1,27 @@
-.App {
-  text-align: center;
+
+.App{
+  background-color: rgb(80, 76, 76);
+  padding: 30px;
+  color: white; 
 }
+
+.App > div {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+#button_div{
+  padding: 8px 20px 8px 20px;
+  background-color: teal;
+  color: white;
+  font: bold;
+  border-radius: 14px;
+}
+#anchor_div {
+  display: flex;
+  gap:20px;
+}
+
 
 .App-logo {
   height: 40vmin;
